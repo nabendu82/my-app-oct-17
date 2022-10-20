@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import ListPost from './components/ListPost';
+// import ParentComponent from './components/ParentComponent';
+// import Counter from './components/Counter';
+// import { Greet, ReactGreet } from './components/Greet';
+// import Greeting from './components/Greeting';
+// import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet />
+      <ReactGreet /> */}
+      {/* <Greeting name="JavaScript" />
+      <Greeting name="Golang">Backend language</Greeting>
+      <Greeting name="Swift" />
+      <hr />
+      <Welcome name="React"/>
+      <Welcome name="Golang">Backend language</Welcome>
+      <Welcome name="React Native" /> */}
+      {/* <Counter /> */}
+      {/* <ParentComponent /> */}
+      <ListPost />
     </div>
   );
 }
